@@ -1,0 +1,48 @@
+@import url("/assets/css/header.css");
+@import url("/assets/css/presentation.css");
+@import url("/assets/css/about.css");
+@import url("/assets/css/skills.css");
+@import url("/assets/css/hobbie.css");
+@import url("/assets/css/academic.css");
+@import url("/assets/css/portifolio.css");
+@import url("/assets/css/contact.css");
+@import url("/assets/css/footer.css");
+@import url("/assets/css/reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+:root{
+    --background-cinza: rgba(230,230,230,0.5);
+    --background-azul: #EAF2FD;
+
+    --azul: #3077b1;
+    --verde-100: #2e5a57;
+    --branco: #FFFFFF;
+    --preto-30: #C8C8C8;
+    --preto-50: #A2A2A2;
+
+    --cor-fonte: #464646; /*preto-100*/
+
+    --fonte-tudo: 'Raleway', sans-serif;
+}
+
+.container{
+    padding-right: 6%;
+    padding-left: 6%;
+
+    font-family: var(--fonte-tudo);
+    color: var(--cor-fonte);
+
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        padding: 4rem 4rem;
+    }
+}
