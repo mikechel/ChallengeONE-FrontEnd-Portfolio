@@ -1,13 +1,14 @@
-@import url("/assets/css/header.css");
-@import url("/assets/css/presentation.css");
-@import url("/assets/css/about.css");
-@import url("/assets/css/skills.css");
-@import url("/assets/css/hobbie.css");
-@import url("/assets/css/academic.css");
-@import url("/assets/css/portifolio.css");
-@import url("/assets/css/contact.css");
-@import url("/assets/css/footer.css");
-@import url("/assets/css/reset.css");
+@import url("reset.css");
+@import url("header.css");
+@import url("presentation.css");
+@import url("about.css");
+@import url("skills.css");
+@import url("hobbie.css");
+@import url("academic.css");
+@import url("portifolio.css");
+@import url("contact.css");
+@import url("footer.css");
+
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 :root{
